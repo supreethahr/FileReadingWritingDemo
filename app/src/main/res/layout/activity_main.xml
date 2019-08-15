@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+     android:layout_margin="20dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/writeInternalButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Write Internal" />
+
+    <Button
+        android:id="@+id/readInternalButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Read Internal" />
+
+    <Button
+        android:id="@+id/writeExternalButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Write External" />
+
+    <Button
+        android:id="@+id/readExternalButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Read External" />
+
+</LinearLayout>
